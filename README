@@ -1,0 +1,44 @@
+- Ao executar o programa:
+
+       - Deverá ser acionada a tecla 'p', para que seja ligada a projeção "perspectiva";
+       - Todas as luzes estarão desligadas, então suas respectivas teclas de acionamento devem ser utilizadas;
+       - Caso desejado, a tecla 'a' remove os vetores de orientação, que se encontram na origem;
+       - Há a possibilidade de alternação entre "solid" e "wireframe", utilizando a tecla "w". 
+
+
+- Primitivas de desenho:
+
+       - Cubos, Cilindros e Cones.
+
+
+- Fontes de luz:
+
+       - 2 fontes de luz pontual;
+       - 1 fonte de luz direcional;
+       - 4 fontes de luz spot.
+
+       obs: Todas as luzes iniciam apagadas;
+       
+       - Controle de luzes: 
+            F1 - Ascende as luzes pontuais;
+            F2 - Ascende a luz direcional;
+            F3 - Ascende as luzes spot.
+
+        obs2: Foram feitas matrizes para as definições das luzes spots.
+                 As mesmas, possuem a intenção de uma iluminação colorida.
+
+
+- Materiais:
+
+       - Encontrei muitas dificuldades no uso dos materiais;
+       - Criei duas funções de materiais, onde material() tendo à um objeto metálico, e material2() tendo à um objeto plástico.
+      - Não consegui habilitar o desligamento dos materiais, por isso, as chamadas das funções estão comentadas.
+      - Desta forma, o programa inicia com as cores pré-definidas pelos glColors.
+
+
+
+- Movimentação:
+
+      - Deslocamento em 'x' com o uso das teclas "LEFT" e "RIGHT";
+      - Botão direito do mouse altera a proximidade da câmera;
+      - Botão esquerdo do mouse altera o ângulo do observador.
